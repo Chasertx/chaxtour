@@ -1,0 +1,8 @@
+CREATING CONTAINERS
+docker run --name stock-db -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=stock-tracker -p 5432:5432 -d postgres
+docker run --name stock-redis -p 6379:6379 -d redis
+
+
+STARTING CONTAINERS
+docker start stock-db
+docker start stock-redis

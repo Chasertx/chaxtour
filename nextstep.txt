@@ -1,0 +1,4 @@
+Store users in the database
+Implement user registration
+Add Auth0 login flow
+Set up frontend authentication
